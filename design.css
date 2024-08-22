@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Imprint MT Shadow";
+    src: url('./Imprint MT Shadow Regular.ttf') format('ttf');
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 0);
+  font-family: "Imprint MT Shadow";
+  font-weight: normal;
+  font-size: 40px;
+}
+
+
+
+.paragraph1 {
+font-family: "Imprint MT Shadow";
+margin: 0;
+padding: 0;
+line-height: 1;
+}
+
+.content-table {
+border-collapse: collapse;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+line-height: .1;
+}
+
+
+.colh {
+border-width: 2px;
+border-style: dotted;
+font-family: "Imprint MT Shadow";
+font-weight: normal;
+}
+
+.data {
+border-width: 2px;
+border-style: dotted;
+border-collapse: collapse;
+padding: 10px;
+font-family: "Imprint MT Shadow";
+font-weight: normal;
+}
+
+.row {
+background: rgb(0, 0, 0);
+}
+
+.row:nth-of-type(2n) {
+background: rgb(10, 10, 10);
+}
+
+.table-title {
+font-family: "Imprint MT Shadow";
+font-weight: normal;
+}
+
+.codeblck1 {
+flex-direction: row;
+background: rgb(4, 4, 4);
+font-family: "Imprint MT Shadow";
+font-weight: normal;
+display: flex;
+flex-wrap: nowrap;
+background-color: rgba(140, 255, 0, 0);
+
+}
+
+
+.codeblck1-content {
+  background-color: rgba(255, 255, 255, 0.04);
+  text-align: left; 
+}
+
+
+
+
+
+
+
+
+
+.cs2-image {
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
